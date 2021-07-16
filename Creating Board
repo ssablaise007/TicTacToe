@@ -1,0 +1,21 @@
+package TicTacToe;
+
+public class CreateBoard {
+  // Creating a function called CreateBoard
+	public static char[] createboard() {
+		// Creating Board with size 10
+		
+		char[] Board= new char[10];
+		for( int i=0; i<Board.length; i++) {
+			Board[i] = '';
+	
+		}
+	return Board;	
+	}
+	
+	// Main method 
+	public static void main(String args[]) {
+		// calling createboard() function in main() method
+		createboard();
+	}
+}
